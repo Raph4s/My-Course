@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_light"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".QuizFragment">
+
+    <!-- Empty State -->
+    <ImageView
+        android:id="@+id/img_quiz_empty"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:contentDescription="Quiz Belum Dilaksanakan"
+        android:src="@drawable/ic_quiz_empty" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tv_quiz_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Quiz Belum Dilaksanakan"
+        android:textColor="@color/text_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Subtitle / Description -->
+    <TextView
+        android:id="@+id/tv_quiz_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:lineSpacingExtra="3dp"
+        android:text="Saat ini belum ada quiz yang diselenggarakan untuk kelas ini.\n\nHarap periksa kembali secara berkala atau tunggu pengumuman resmi dari asisten praktikum."
+        android:textColor="@color/text_muted"
+        android:textSize="14sp" />
+
+    <!-- Button Cek Status -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#FFF3E0"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp"
+        android:text="Status: Belum Dimulai"
+        android:textColor="@color/accent_color"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_check_quiz"
+        style="@style/CustomRoundedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:paddingHorizontal="32dp"
+        android:text="Cek Status Quiz" />
+
+</LinearLayout>
