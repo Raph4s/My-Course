@@ -27,27 +27,27 @@ class MateriFragment : Fragment() {
         val listMateri = listOf(
             Materi(
                 title = "Pengenalan Android Studio",
-                date = "02 September 2026"
+                date = "27 Agustus 2026"
             ),
             Materi(
                 title = "CountApp",
-                date = "09 September 2026"
+                date = "27 Agustus 2026"
             ),
             Materi(
                 title = "Constraint Layout",
-                date = "16 September 2026"
+                date = "3 September 2026"
             ),
             Materi(
                 title = "Activity dan Intent",
-                date = "23 September 2026"
+                date = "9 September 2026"
             ),
             Materi(
                 title = "Ui Component",
-                date = "30 September 2026"
+                date = "17 September 2026"
             ),
             Materi(
                 title = "Style, Option Menu & Tabs Layout",
-                date = "07 Oktober 2026"
+                date = "24 Sept 2026"
             )
         )
 

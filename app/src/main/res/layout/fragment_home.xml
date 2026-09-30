@@ -93,7 +93,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:lineSpacingExtra="4dp"
-            android:text="Selamat datang di kelas Praktikum Pemrograman Aplikasi Bergerak! Pada mata kuliah praktikum ini, Anda akan mempelajari dasar hingga tingkat lanjut pengembangan aplikasi Android menggunakan bahasa pemrograman Kotlin.\n\nMateri praktikum mencakup dasar sintaks Kotlin, perancangan antarmuka dengan XML Layouts, navigasi antar halaman menggunakan Activity, Fragment, dan ViewPager2, menampilkan data dinamis dengan RecyclerView, serta arsitektur aplikasi Android modern."
+            android:text="Selamat datang di kelas Praktikum Pemrograman Aplikasi Bergerak! Pada mata kuliah praktikum ini, Anda akan mempelajari dasar hingga tingkat lanjut pengembangan aplikasi Android menggunakan bahasa pemrograman Kotlin."
             android:textColor="@color/text_muted"
             android:textSize="14sp" />
 

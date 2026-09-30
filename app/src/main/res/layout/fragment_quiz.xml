@@ -36,7 +36,7 @@
         android:layout_marginTop="8dp"
         android:gravity="center"
         android:lineSpacingExtra="3dp"
-        android:text="Saat ini belum ada quiz yang diselenggarakan untuk kelas ini.\n\nHarap periksa kembali secara berkala atau tunggu pengumuman resmi dari asisten praktikum."
+        android:text="Saat ini belum ada quiz yang diselenggarakan untuk kelas ini."
         android:textColor="@color/text_muted"
         android:textSize="14sp" />
 
